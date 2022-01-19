@@ -1,0 +1,24 @@
+img {
+    max-width: 100%;
+    object-fit: contain;
+  }
+  
+  .product-image {
+    height: 300px;
+  }
+  
+  .detail-image {
+    height: 150px;
+  }
+  
+  .card h5 {
+    vertical-align: middle;
+  }
+  .card h5 .badge {
+    vertical-align: middle;
+    margin-top: -0.4em;
+  }
+  body {
+    background: #f2d479;
+  }
+  
