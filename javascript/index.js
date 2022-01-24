@@ -15,10 +15,10 @@ const app = {
             .then(res => {
                 const { token, expired } = res.data;
                 document.cookie = `hextoken=${ token }; expires=${ new Date(expired)};`;
-                window.location = 'products.html'
+                window.location = 'products.html';
             })
             .catch(error => {
-                console.log(error.data);
+                alert(error.data.message);
             })
 
       }

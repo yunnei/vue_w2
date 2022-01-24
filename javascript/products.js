@@ -15,7 +15,7 @@ const app = {
                     this.getProducts();
                 })
                 .catch(error => {
-                    console.log(error.data);
+                    window.location = 'index.html';
                 })
         },
         getProducts() {
